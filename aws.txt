@@ -1,0 +1,29 @@
+static website host = S3 buckte
+
+AUTOSCALING = create AMI (create image) -> launch configration -> Auto scalaing conf..
+
+LOAD BALANCER = create 2 instance -> target group -> Load balancer 
+# target group which instance you want attach load balancer(http for appliaction  and TCP for network
+
+VPC CREATE = vpc create -> subnet -> internet getway(attach vpc) -> route table
+# subnet =range of ip
+# internet getway = it is connect you with internet
+# route table = connect subnet with inetrnet getway mainly it is used for route
+ROUTE EDIT ROUTES AND SUBNET ASSOCIATIONS
+
+PAIRING VPC = create peering connection -> rote table
+# edit route table first vpc1 and second vpc2 add in both subnetip range and peering connection
+
+NAT GATEWAY = create vp -> create two subnet(public and private subnet)-> inetnet getway(attach vpc) -> route table(create public and private table )->
+-> -> create netgateway
+# natway gateway = it is help to used private instance used internet without public ip
+# public route table = route add ineternet getway and subnet association add only public subnet 
+# pivate route table = route add ip(0.0.0.0/0) NATGETWAY add subnet association add only private subnet(first create netgateway)
+# netgateway = add pubic subnet and add ELASTIC IP
+# ELASTIC IP = one ip give all private instace
+
+RDS = create database -> go inside scecurity gp
+# rds = it used to create data base
+# security gp = inbound rule add rule ssh , both anywhere 
+# connect rds with instance = login instance install first data base like mysql and mysql -h endpoint data base -u username -p database_name
+( endpoint in you can see in rds down detail) this for linux
