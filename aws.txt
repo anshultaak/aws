@@ -27,3 +27,15 @@ RDS = create database -> go inside scecurity gp
 # security gp = inbound rule add rule ssh , both anywhere 
 # connect rds with instance = login instance install first data base like mysql and mysql -h endpoint data base -u username -p database_name
 ( endpoint in you can see in rds down detail) this for linux
+
+S3 BUCKET = create bucket -> upload data
+# it is used for stored data
+# Version Enable = recover your old data (meaning pervious version go)
+version = go on click data -> version
+#Crossregion Repliaction = It is used for create backup data(it create copy data on differnet region automatic)
+crossregion repliaction = first create two bucket different region -> go main bucket click on -> Management -> replication rule
+#Lifecycle Ploicy = automatically data go on less price storage
+go bucket click on -> Management -> 
+
+EFS = cretate ec2 instance -> create efs -> login ec2 instance ->run command(yum install -y amazon-efs-utils) -> go efs open attach(run command on instance)
+#EFS(Elastic File system) it is used one storage on differnet ec2 instance in same region( it is ony use in linux not in window)
