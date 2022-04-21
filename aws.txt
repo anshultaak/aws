@@ -30,7 +30,7 @@ RDS = create database -> go inside scecurity gp
 
 S3 BUCKET = create bucket -> upload data
 # it is used for stored data
-# Version Enable = recover your old data (meaning pervious version go)
+# Version Enable = recover your old data (meaning pervious version data)
 version = go on click data -> version
 #Crossregion Repliaction = It is used for create backup data(it create copy data on differnet region automatic)
 
