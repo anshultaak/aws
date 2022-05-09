@@ -1,2 +1,10 @@
-S3 ( simple storage service ) = S3 is object level storage 
+S3 ( simple storage service ) = S3 is object level storage and access by http or https internet and you can share this storage in region or different region and we can can not install opearting system in bucket 
+# S3 has three backup copy and data storage in bucket maximum capacity of a bucket is 5 TB and bucket owner not transfer and maximum bucket is 100
+# Object level storage = it store file/data and its metadata and it have gobal unique id 
 # Block level storage = all data divide into equal blocks then its store in EBS storage  
+
+S3 BUCKET SUB RESOURCES
+Lifecycle = To decide on obect lifecycle management ( you set after n day these data go on another storage and current data only store here)
+Website = to hep configurate related static website hosted
+versioning = go commit after perivous version but you have enable this but after enable we can disable version but we can suspend for sometime versioning
+Access control list = security how access your bucket or not and you can add password
