@@ -1,2 +1,2 @@
-S3 = S3 is object level storage 
+S3 ( simple storage service ) = S3 is object level storage 
 # Block level storage = all data divide into equal blocks then its store in EBS storage  
