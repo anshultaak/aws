@@ -57,3 +57,8 @@ LIFECYCLE
 # To decide on obect lifecycle management ( you set after some day these data go on another storage type and current data only store here)
 clicket on bucket -> managment -> lifecycle -> add lifecycle rule -> enter name and all object(if select tag which data has tag only those use ) -> current and pervious version (you can select both and only one) ADD TRANSITION FOR BOTH CURRENT AND PERVIOUS (enter in which storage where your transfer and select day after go) -> how man days after your permentaly delete data and marker delete select
 # marker = its after enable it market start store your data for restore 
+
+BUCKET POLICY
+click on bucket -> permission -> policy(here you can ploicy for access)
+# you can add policy for anonymous (every one access) and  mulitiuser access(these access policy code you can get from internet)
+
