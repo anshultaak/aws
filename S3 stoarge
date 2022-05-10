@@ -20,7 +20,12 @@ S3 Glacier = it used data store long time and data retrieval option that few min
 S3 Glacier Deep archive = it used data store long time and less data usage store here 
 
 CREATING S3 STORAGE
-S3 -> creating bucket -> upload
+S3 BUCKET = create bucket -> upload data
+# you can access this data by click url
+# it is used for stored data
+# Version Enable = recover your old data (meaning pervious version data)
+version = go on click data -> version
+#Crossregion Repliaction = It is used for create backup data(it create copy data on differnet region automatic)
 
 
 
