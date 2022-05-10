@@ -8,4 +8,10 @@ Lifecycle = To decide on obect lifecycle management ( you set after n day these 
 Website = to hep configurate related static website hosted
 versioning = go commit after perivous version but you have enable this but after enable we can disable version but we can suspend for sometime versioning
 Access control list = security how access your bucket or not and you can add password
-Multifactor authentication delete = if you enable this, someone try to delete your data base then its need 6 didgit code need that's inside your mobile
+MFA(Multifactor authentication delete) = If you enable this, someone try to delete your data base then its need 6 didgit code need that's inside your mobile
+multi path upload api = data store in parts, its store data fastly
+
+S3 TYPE OF SECUIRTY
+S3-Standed = 
+
+
