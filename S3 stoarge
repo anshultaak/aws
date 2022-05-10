@@ -15,7 +15,9 @@ S3 TYPE OF SECUIRTY
 S3-Standed = its data accessed frequently and it can be encrypt your data 
 S3-IA = its data accessed less frequently but required access when we need and it can be encrypt your data 
 S3 Intelligent Tiering = its used transfer automatically most cost data base to less data base
-
+Amazon one-zone IA = its data accessed less frequently but required access when we need and but it des not three backup copy
+S3 Glacier = it used data store long time and data retrieval option that few minutes to hours and it can be encrypt your data 
+S3 Glacier Deep archive = it used data store long time and less data usage store here 
 
 
 
