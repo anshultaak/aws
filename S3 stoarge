@@ -25,7 +25,7 @@ S3 BUCKET = create bucket -> upload data
 # it is used for stored data
 # Version Enable = recover your old data (meaning pervious version data)
 version = go on click data -> version
-#Crossregion Repliaction = It is used for create backup data(it create copy data on differnet region automatic)
+#crossregion replication= It is used for create backup data(it create copy data on differnet region automatic)
 
 S3 CLI
 Search in google aws cli and download 64 or 32 bit
@@ -35,9 +35,25 @@ inside file you have id and key then write cmd click enter 2 times
 aws s3 ls         # list all s3 bucket
 aws s3 mb s3://bucket_name                  # create bucket but unique bucket name and mb = make bucket
 aws rb s3://backet_name                     # remove bucket
-
 # attach laptop folder with s3 bucket
-aws s3 sync . s3//bucket_name               # attach laptop folder with s3 bucket
+firstly go in folder which you want sync
+aws s3 sync . s3//bucket_name               # attach laptop folder with s3 bucket and all data in folder go in bucket
+aws s3 sync s3://bucket_name .              # all data from bucket add in folder
 
+S3 versioning enable
+#recover your old data (meaning pervious version data)
+clicket on bucket -> properties -> versioning -> enable or suspend
+# Once enable versioning you can't disbale versioning
+# if delete data mistakely then you can retrive data by versioning
+clicket on bucket -> versioN -> show -> click on file -> action - delete                    # after delete in come data to bucket
 
+S3 CROSSREGION REPLIACTION
+# It is used for create backup data(it create copy data on differnet region automatic)
+creat two bucket in differnet region -> versioning enable -> managment -> replication -> add rule (clicket entire bucket) -> next -> destination (select your another bucket) -> select storage -> IAM role (for access) -> save
+# this is all steps done in one main bucket
+# version enable is important for crossregion replication
 
+LIFECYCLE
+# To decide on obect lifecycle management ( you set after some day these data go on another storage type and current data only store here)
+clicket on bucket -> managment -> lifecycle -> add lifecycle rule -> enter name and all object(if select tag which data has tag only those use ) -> current and pervious version (you can select both and only one) ADD TRANSITION FOR BOTH CURRENT AND PERVIOUS (enter in which storage where your transfer and select day after go) -> how man days after your permentaly delete data and marker delete select
+# marker = its after enable it market start store your data for restore 
