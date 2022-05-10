@@ -27,5 +27,17 @@ S3 BUCKET = create bucket -> upload data
 version = go on click data -> version
 #Crossregion Repliaction = It is used for create backup data(it create copy data on differnet region automatic)
 
+S3 CLI
+Search in google aws cli and download 64 or 32 bit
+go on laptop cmd enter = aws configure
+# you need access ID and key go on aws account go up on right aws (where your name write) and click on My security creaditonal click create new access key and download
+inside file you have id and key then write cmd click enter 2 times
+aws s3 ls         # list all s3 bucket
+aws s3 mb s3://bucket_name                  # create bucket but unique bucket name and mb = make bucket
+aws rb s3://backet_name                     # remove bucket
+
+# attach laptop folder with s3 bucket
+aws s3 sync . s3//bucket_name               # attach laptop folder with s3 bucket
+
 
 
