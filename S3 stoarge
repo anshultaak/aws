@@ -12,6 +12,10 @@ MFA(Multifactor authentication delete) = If you enable this, someone try to dele
 multi path upload api = data store in parts, its store data fastly
 
 S3 TYPE OF SECUIRTY
-S3-Standed = 
+S3-Standed = its data accessed frequently and it can be encrypt your data 
+S3-IA = its data accessed less frequently but required access when we need and it can be encrypt your data 
+S3 Intelligent Tiering = its used transfer automatically most cost data base to less data base
+
+
 
 
