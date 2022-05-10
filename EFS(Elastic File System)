@@ -1,0 +1,2 @@
+EFS = cretate ec2 instance -> create efs -> login ec2 instance ->run command(yum install -y amazon-efs-utils) -> go efs open attach(run command on instance)
+#EFS(Elastic File system) it is used one storage on differnet ec2 instance in same region( it is ony use in linux not in window)
