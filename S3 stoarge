@@ -19,5 +19,8 @@ Amazon one-zone IA = its data accessed less frequently but required access when 
 S3 Glacier = it used data store long time and data retrieval option that few minutes to hours and it can be encrypt your data 
 S3 Glacier Deep archive = it used data store long time and less data usage store here 
 
+CREATING S3 STORAGE
+S3 -> creating bucket -> upload
+
 
 
