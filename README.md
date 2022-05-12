@@ -46,8 +46,11 @@ ELASTIC BEANSTALK = create application -> upload and deploy ->
 # upload file only when file is zip
 # It is used for deploying and scaling web appliation and load balancing , auto sclaing and health monitoring is automatically handle
 create appliaction - upload version - launch Environment - Manage Environment (workflow Elatic beanstalk
+
 crossregion repliaction = first create two bucket different region -> go main bucket click on -> Management -> replication rule
+
 #Lifecycle Ploicy = automatically data go on less price storage
+
 go bucket click on -> Management -> 
 
 EFS = cretate ec2 instance -> create efs -> login ec2 instance ->run command(yum install -y amazon-efs-utils) -> go efs open attach(run command on instance)
