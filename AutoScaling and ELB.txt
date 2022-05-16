@@ -1,0 +1,21 @@
+AUTO SCALING 
+# When traffic up it create more server and traffic down it delete you server (you can set here maximum server or minimum server)
+LAUNCH CONFIGUARTION (select snapshot server) AMI -> name or IAM role -> add storage -> secuirty group (port open ) -> create launch configration(take key pair ssh)
+
+CREATE AUTO SCALING GROUP -> name or minumum instance or vpc or sunbet -> adanvced details (health check period )-> mximum instance or cpu utilization averge or else -> set alarm on incerase or decrese instance -> notification -> tag -> create
+
+TWO TYPE SCALING
+VERTICAL SCALING = its means not created more server it give more capicty two this server when you need
+HORIZONTAL SCALING = its created more server when you need
+
+ELB (ELASTIC LOAD BALANCER)
+# it balance your traffic ,means sending equal traffic on servers
+
+THREE TYPE LOAD BALANCER
+
+CLASSIC LOAD BALANCER =  it simple load balancer send traffic instnace
+
+APPLICATION LOAD BALANCER = it create for different application one load balancer when you need to one appliaction it tak you there and select another it ta there also both has differnt path
+
+NETWORK LOAD BALANCER = 
+
