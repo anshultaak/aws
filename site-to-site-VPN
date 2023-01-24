@@ -1,0 +1,4 @@
+First create VPC in both region
+
+then create virtual private gateway and select option amazon deafult ASN
+attach virtual private gateway with VPC
